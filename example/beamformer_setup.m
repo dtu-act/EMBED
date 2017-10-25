@@ -15,7 +15,7 @@ source = int64([N/2-N/4 N/2; N/2+N/4 N/2]);    % x,y position of sources
 [b,PSF,X,Y,x,y] = psf(N,z0,f,phi,rn,source,SNR);
 
 figure
-contourf(real(b)), hold on
+imagesc(real(b)), hold on
 plot(source(:,1),source(:,2),'w*')
 colormap(flipud(winter))
 

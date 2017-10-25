@@ -74,7 +74,7 @@ end
 q = zeros(N,N);
 Rmn = zeros(M,M);
 
-for k = 1:size(source,2)
+for k = 1:size(source,1)
     q(source(k,2),source(k,1)) = 1;
     Rmn = Rmn + squeeze(ejhat(source(k,2),source(k,1),:))*squeeze(ejhat(source(k,2),source(k,1),:))';
 end
