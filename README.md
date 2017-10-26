@@ -7,6 +7,7 @@ Oliver Lylloff, Efrén Fernández-Grande, Finn Agerkvist, Jørgen Hald, Elisabet
 J. Acoust. Soc. Am. 138, 172 (2015); http://dx.doi.org/10.1121/1.4922516
 
 The package contains two folders:
+
 src/
 - FFTNNLS.m : FFT-NNLS algorithm
 - FISTA.m : FISTA algorithm
